@@ -1,0 +1,9 @@
+{
+    "app_id": "1253329830",
+    "secret_id": "AKIDZyGQXbErpxxxxxxxxxxxxxxxxxxxxxx",
+    "secret_key": "kFUTDk38yZw4xxxxxxxxxxxxxxxxx",
+    "region_id": "ap-beijing",
+    "image_name": "go2tencent-img",
+    "bandwidth_limit": 0,
+    "bucket_name": "go2tencent"
+}
