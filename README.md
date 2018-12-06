@@ -34,7 +34,7 @@ region_id可以参考：https://cloud.tencent.com/document/product/436/6224
 
 #### 运行
 * 开始迁移
-注意：如若考虑shell终端终端，请放在系统后台执行
+注意：如若考虑shell当前终端异常中断，请放在系统后台执行
 ```chmod +x go2tencent.sh && nohup ./go2tencent.sh &```
 在linux终端下运行强烈建议使用screen系统下运行,以防止网络异常波动导致当前shell终端影响迁移
 `go2tencent.sh`
