@@ -1,12 +1,12 @@
 # go2cloud_v1.0.0
 
 ## 简介
-go2cloud_v1.0.0是为了用户快速的迁移其他共有云厂商实例或虚拟机，IDC物理机到腾讯云的工具。
+go2cloud_v1.0.0是为了用户快速的迁移其他共有云厂商实例/虚拟机/IDC物理机到腾讯云的工具。
 
 ## 安装
 #### 下载
 ```
-yum install -y git || apt-get update && install git -y
+yum install -y git || apt-get update && apt-get install git -y
 git clone https://github.com/redhatxl/go2cloud_v1.0.0.git
 cd go2cloud_v1.0.0
 ```
@@ -51,5 +51,6 @@ region_id可以参考：https://cloud.tencent.com/document/product/436/6224
 
 * 适用系统x86：CentOS 6.x/7.x,Ubuntu x,RedHat 6.x/7.x,Debian x
 * 腾讯云ak需要具备腾讯云资源开通权限（ECS/VPC/OSS)
+
 
 
