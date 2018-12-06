@@ -1,9 +1,0 @@
-# 功能: 迁移任何云到腾讯云
-
-
-# 安装运行: 下载软件包，配置config目录下的user_config.json文件,填写app_id/secret_id/secret_key三个信息后,即可运行迁移
-
-
-# 运行:bash go2tencent_linux.sh
-
-# 清理云上资源:bash clean.sh
