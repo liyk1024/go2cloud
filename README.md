@@ -30,8 +30,13 @@ cd go2cloud_v1.0.0
 修改迁移目的端的地域
 
 #### 运行
-注意：如若考虑shell终端终端，请放在系统后台执行`chmod +x go2tencent.sh && nohup ./go2tencent.sh &`
-在linux系统下运行`go2tencent.sh`
+注意：如若考虑shell终端终端，请放在系统后台执行
+```chmod +x go2tencent.sh && nohup ./go2tencent.sh &```
+在linux终端下运行强烈建议使用screen系统下运行,以防止网络异常波动导致当前shell终端影响迁移
+`go2tencent.sh`
+
+清理环境:
+运行```chmod +x clean.sh && nohup ./clean.sh &```
 
 #### 登陆目的端腾讯云账号查看
 
